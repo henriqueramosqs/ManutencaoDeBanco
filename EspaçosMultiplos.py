@@ -1,11 +1,18 @@
 import mysql.connector
 
 mydb = mysql.connector.connect(
+<<<<<<< HEAD
     host= 'sql131.main-hosting.eu',
     user='u659347430_henrique3107',
     password='Megareaper3107!',
     database='u659347430_questoes',
     autocommit=True
+=======
+    host= '<host>'
+    user= '<user>',
+    password='<password>',
+    database='<database>'
+>>>>>>> 7296a6963cc4abd5bfd8d1dbe7afc5bdaa006632
 )
 
 registrosCorrigidos = 0
